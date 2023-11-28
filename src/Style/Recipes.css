@@ -1,0 +1,7 @@
+.custom-dropdown {
+  background-color: #213555;
+}
+
+.custom-dropdown:hover {
+  background-color: #e0e0e0; /* Example color */
+}

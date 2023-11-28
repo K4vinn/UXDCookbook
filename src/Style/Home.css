@@ -1,0 +1,154 @@
+* {
+  font: 300 30px "Silk Flower Demo", sans-serif;
+}
+
+.sidebar {
+  width: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 8px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #164863;
+}
+
+.header-title {
+  font: 300 50px "Silk Flower Demo", sans-serif;
+}
+
+.custom-nav-bar {
+  background-color: #213555;
+  color: #ddf2fd;
+}
+/* Home.css */
+
+.header-title {
+  margin-right: auto;
+}
+
+/* For Bootstrap 4 */
+.navbar-collapse {
+  justify-content: flex-end !important;
+}
+
+.ms-auto {
+  margin-left: auto !important;
+}
+
+.landing {
+  margin-left: 10px;
+  margin-top: 100px;
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+.landing-2 {
+  margin-left: 10px;
+  font-size: 130px;
+}
+
+.img-1 {
+  height: 480px;
+  width: 480px;
+  margin-top: 100px;
+  margin-left: -480px;
+  z-index: 2;
+}
+
+.img-2 {
+  height: 500px;
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 100px;
+  z-index: 1;
+}
+
+.view-recipe-btn {
+  background-color: #4f709c;
+  border-radius: 15px;
+  height: 67px;
+  border: none;
+  width: 228px;
+  color: white;
+  margin-left: 200px;
+  margin-top: -40px;
+}
+
+.box {
+  height: auto;
+  width: auto;
+}
+.box .rectangle {
+  background-color: #213555;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 1415px;
+
+  width: auto;
+}
+
+.for-you {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.outer-card {
+  height: 350px;
+  width: 300px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.inner-card {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card-content {
+  text-align: center;
+  margin: 10px;
+}
+
+.line-for-you {
+  width: 80%;
+  border-radius: 2px;
+  color: white;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.save-recipe {
+  font-size: 43px;
+  color: white;
+}
+
+.line-save {
+  margin-top: 80px;
+  width: 80%;
+  border-radius: 2px;
+  color: white;
+  justify-content: center;
+  margin: 80px auto;
+}
